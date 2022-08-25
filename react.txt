@@ -5,3 +5,6 @@ https_proxy=http://USERNAME:PASSWORD@10.0.0.1:8080/
 //Para crear un proyecto en react 
 npx create-react-app nombre_del_proyecto
 
+//instalar redux toolkit 
+# NPM
+npm install @reduxjs/toolkit
