@@ -7,4 +7,4 @@ npx create-react-app nombre_del_proyecto
 
 //instalar redux toolkit 
 # NPM
-npm install @reduxjs/toolkit
+npm install @reduxjs/toolkit react-redux
