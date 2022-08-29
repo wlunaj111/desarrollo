@@ -1,3 +1,8 @@
 //Cuando exista conflicto en las migraciones puedes eliminar todas las migraciones y ejecutar el siqguiente comando
 python manage.py makemigrations api
 python manage.py migrate
+
+
+//Cuando voy a indexar en Elastic y me dice bash: ./manage.py: Permiso denegado,  ejecutar en consola lo siguiente
+
+chmod +x manage.py
