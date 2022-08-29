@@ -1,0 +1,3 @@
+//Cuando exista conflicto en las migraciones puedes eliminar todas las migraciones y ejecutar el siqguiente comando
+python manage.py makemigrations api
+python manage.py migrate
