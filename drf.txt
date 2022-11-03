@@ -1,0 +1,60 @@
+01-El objetivo del archivo  __init__.py  es declarar el contenido como un mdulo de python
+02-El archivo settings.py define todas las configuraciones dentro del proyecto 
+03-El archivo urls.py es el archivo principal, nuestro punto de entrada para todas las peticiones que lleguen a nuestro proyecto
+04-El archivo wsgi.py Es el archivo usado durante el deployment de produccion y es la interfaz wsgi de django cuando el proyecto esta en produccion 
+05-El archivo manage.py es un archivo que nunca vamos a tocar pero estaremos interactuando durante toda la creacion del proyecto esto lo que hace una interfaz sobre django-admin
+
+
+1-Instalando el VirtualEnviroment
+pip3.8 install virtualenv
+
+2-Creando el entorno virtual
+virtualenv nombre_del_entorno_virtual # para crear el entorno virtual
+
+3-Activando el entorno viertual
+source environment/bin/activate   #  activar entorno virtual 
+deactivate   			  # para desactivar el entrono virtual  
+
+4-Para ver los modulos instalados en el VE
+pip freeze
+
+4.1 para crear una copia de las dependencias en un archivo de texto con el nombre requirements.txt
+
+pip freeze > requirements.txt            
+
+5-Para instalar localmente los plugins necesarios desde un archivo y actualizar pip
+
+pip install --upgrade -r requirements.txt  # instala las dependencias de un archivo llamado requirements que se encuentra 
+pip install --upgrade pip
+
+6-Instalar djangorestframework
+pip install djangorestframework   # instala djangorestframework
+
+7-Para crear un nuevo proyecto
+django-admin startproject nombre_proyecto
+
+django-admin startapp users   para crear el modelo de usuarios
+pip install django-simple-history    para manejar el historial de la aplicacion
+pip install pillow para usar las imagenes
+python manage.py makemingrations     para crear las migraciones 
+
+Para activar un entorno virtual en Windows, use el siguiente comando.
+
+environment\Scripts\activate
+Para Mac y Linux, use el siguiente comando.
+
+
+python manage.py migrate     para hacer la migracion 
+python manage.py createsuperuser
+python manage.py runserver   Para correr el servidor 
+
+
+
+
+-----------------------------
+direccion del proyecto en la pc del trabajo 
+/home/wluna/workspace/proyecto/ecommerce_rest
+
+
+git remote add origin URLrepositorio.git  # para agregar el repositorio remoto 
+git push origin master  		   # para subir los cambios a github
