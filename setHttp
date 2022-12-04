@@ -1,0 +1,5 @@
+> Roman:
+export https_proxy=http://USERNAME:PASSWORD@10.0.0.1:8080/
+export http_proxy=http://USERNAME:PASSWORD@10.0.0.1:8080/
+
+export https_proxy=http://wluna:PASSWORD@127.0.0.1:8080/
