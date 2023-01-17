@@ -58,3 +58,9 @@ direccion del proyecto en la pc del trabajo
 
 git remote add origin URLrepositorio.git  # para agregar el repositorio remoto 
 git push origin master  		   # para subir los cambios a github
+
+
+
+//Reindexando 
+./manage.py search_index --rebuild --models api.Resource
+
