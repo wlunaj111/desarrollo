@@ -17,3 +17,19 @@ nvm use [version]
 Para verificar la versión de Node.js que está actualmente en uso, ejecute el siguiente comando:
 node -v
 
+Para ver la lista de versiones de Node.js instaladas con nvm (Node Version Manager) en Ubuntu, siga estos pasos:
+Abra una terminal y asegúrese de tener nvm instalado ejecutando el comando:
+nvm --version
+
+Utilice el comando nvm para ver las versiones de node instaladas:
+nvm ls
+
+La salida de este comando mostrará una lista de todas las versiones de Node.js instaladas en su sistema, así como la versión actualmente en uso. Las versiones marcadas con un asterisco (*) son las versiones actualmente en uso.
+
+Para utilizar una versión específica de Node.js, puede utilizar el comando "nvm use" seguido del número de versión. Por ejemplo, para usar la versión 12.18.3, ejecute el siguiente comando:
+nvm use 12.18.3
+
+Si desea desinstalar una versión específica, puede utilizar el comando "nvm uninstall" seguido del número de versión. Por ejemplo, para desinstalar la versión 12.18.3, ejecute el siguiente comando:
+nvm uninstall 12.18.3
+
+
