@@ -1,0 +1,26 @@
+Para configurar el archivo sources.list para que cargue los repositorios por defecto en Ubuntu, siga estos pasos:
+
+Abra una terminal y utilice el comando sudo para abrir un editor de texto con permisos de administrador. Por ejemplo:
+sudo nano /etc/apt/sources.list
+
+En el editor de texto, borre todo el contenido actual del archivo.
+Agregue las siguientes líneas al archivo para agregar los repositorios oficiales de Ubuntu:
+
+deb http://archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse
+
+deb http://archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse
+
+deb http://security.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
+deb-src http://security.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
+
+
+Nota: sustituye "bionic" por la version de tu sistema operativo.
+
+Guarde el archivo y salga del editor de texto.
+
+Ejecute el siguiente comando para actualizar la lista de paquetes desde los nuevos repositorios:
+sudo apt-get update
+
+Ahora, los repositorios oficiales de Ubuntu se cargarán automáticamente cada vez que se ejecute un comando apt-get. También puede agregar repositorios adicionales al archivo sources.list o a los archivos en /etc/apt/sources.list.d/ siguiendo los mismos pasos. Sin embargo, tenga en cuenta que agregar repositorios no oficiales puede aumentar el riesgo de instalar software dañino o inseguro.
