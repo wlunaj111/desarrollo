@@ -1,0 +1,19 @@
+Para instalar nvm (Node Version Manager) en Ubuntu, siga estos pasos:
+
+Abra una terminal y ejecute el siguiente comando para instalar las dependencias necesarias para nvm:
+sudo apt-get install build-essential libssl-dev
+
+Descargue la última versión de nvm utilizando curl con el siguiente comando:
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.3/install.sh | bash
+
+Cierra y abre de nuevo la terminal para asegurarte que nvm está disponible
+Para instalar una versión específica de Node.js, ejecute el siguiente comando:
+
+nvm install [version]
+
+Para usar una versión específica de Node.js, ejecute el siguiente comando:
+nvm use [version]
+
+Para verificar la versión de Node.js que está actualmente en uso, ejecute el siguiente comando:
+node -v
+
