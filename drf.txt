@@ -10,9 +10,12 @@ pip3.8 install virtualenv
 
 2-Creando el entorno virtual
 virtualenv nombre_del_entorno_virtual # para crear el entorno virtual
+$ python -m venv ruta/al/entorno/virtual  #en windows
 
 3-Activando el entorno viertual
 source environment/bin/activate   #  activar entorno virtual 
+C:\>c:\ruta\al\entorno\virtual\scripts\activate.bat  # en windows
+
 deactivate   			  # para desactivar el entrono virtual  
 
 4-Para ver los modulos instalados en el VE
@@ -39,8 +42,8 @@ pip install pillow para usar las imagenes
 python manage.py makemingrations     para crear las migraciones 
 
 Para activar un entorno virtual en Windows, use el siguiente comando.
-
 environment\Scripts\activate
+
 Para Mac y Linux, use el siguiente comando.
 
 
