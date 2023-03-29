@@ -1,0 +1,9 @@
+Instead pip command use:
+
+sudo apt-get install libpq-dev
+then use:
+
+pip3 install psycopg2
+UBUNTU 20.04 PYTHON 3.8
+
+IT SOLVES ME THE SAME ERORR
