@@ -14,3 +14,17 @@ redis-server --port 6380
 celery -A piatex_ads worker -l info
 # beat
 celery -A piatex_ads beat
+
+
+
+En windows el comando celery -A piatex_ads worker -l info   si no funciona hacer lo siguiente:
+
+Windows does not support celery 4.0+, So To Solve this issue :-
+
+We have to install gevent using pip :-
+
+pip install gevent
+
+Then to run celery,
+
+celery -A <proj_name> worker -l info -P gevent
