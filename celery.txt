@@ -11,7 +11,7 @@ PONG
 #redis
 redis-server --port 6380  
 # celery
-celery -A piatex_ads worker -l info     o      celery -A gestor_medias worker --loglevel=info -P solo
+celery -A piatex_ads worker -l info     o      celery -A piatex_ads worker --loglevel=info -P solo
 # beat
 celery -A piatex_ads beat
 
