@@ -6,3 +6,8 @@ origin  https://github.com/tu-usuario/tu-repositorio.git (fetch)
 origin  https://github.com/tu-usuario/tu-repositorio.git (push)
 // para cambiar el directorio 
 git remote set-url origin https://tu-usuario@tu-servidor/tu-usuario/tu-repositorio.git
+
+// para ponerle nuestros datos ejemplo user y email 
+
+git config --global user.name "Wilber"
+git config --global user.email "wluna@gmail.com"
