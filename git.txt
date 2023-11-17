@@ -4,3 +4,5 @@ git remote -v
 
 origin  https://github.com/tu-usuario/tu-repositorio.git (fetch)
 origin  https://github.com/tu-usuario/tu-repositorio.git (push)
+// para cambiar el directorio 
+git remote set-url origin https://tu-usuario@tu-servidor/tu-usuario/tu-repositorio.git
