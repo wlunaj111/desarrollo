@@ -1,1 +1,6 @@
 //saber a donde esta apuntando git 
+git remote -v
+ esto deberia devolver algo como esto 
+
+origin  https://github.com/tu-usuario/tu-repositorio.git (fetch)
+origin  https://github.com/tu-usuario/tu-repositorio.git (push)
