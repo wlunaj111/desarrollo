@@ -1,0 +1,1 @@
+Objeto, es como una lista de de pares clave(key)-valor
